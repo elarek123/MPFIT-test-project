@@ -8,6 +8,7 @@
 - `make build`
 - `make up`
 - `docker compose exec app bash -c "composer install && php artisan key:generate && php artisan migrate"`
+- `docker compose exec app bash -c "php artisan filament:user"` - создание пользователя для панели администратора
 
 ## Проект состоит из
 - [Filament](https://filamentphp.com/)
